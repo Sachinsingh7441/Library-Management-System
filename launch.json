@@ -6,15 +6,16 @@
     "configurations": [
 
      {
-            "name": "g++.exe - Build and debug active file",
+            "name": "g++.exe - DEvelop new Spark based applications ",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": true,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceDirectory}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true, 
+            "newVar":true,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
